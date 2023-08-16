@@ -69,7 +69,6 @@
                              &kp LGUI &trans   &kp SPACE   &kp RET   &trans    &kp RALT
                         >;
                 };
-        };
 
                 bt_layer {
 // -----------------------------------------------------------------------------------------
@@ -84,4 +83,5 @@
                                     &kp LGUI     &trans       &kp SPACE      &kp RET  &trans   &kp RALT
                         >;
                 };
+        };
 };
