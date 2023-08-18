@@ -1,7 +1,7 @@
 if SHIELD_BRIANBANRI_LEFT
 
 config ZMK_KEYBOARD_NAME
-    default "brianbanri_kb"
+    default "brian_kb"
 
 config ZMK_SPLIT_ROLE_CENTRAL
     default y
