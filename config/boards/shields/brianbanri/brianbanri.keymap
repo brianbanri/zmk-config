@@ -57,7 +57,7 @@
     &kp TAB         &kp Q           &kp W           &kp E           &kp R           &kp T               &kp Y           &kp U           &kp I           &kp O           &kp P           &td0
     &kp ESC         &mt LGUI A      &mt LALT S      &mt LSHFT D     &mt RCTRL F     &kp G               &kp H           &mt RCTRL J     &mt RSHFT K     &mt RALT L      &mt RGUI SEMI   &kp SQT
     &kp LSHFT       &kp Z           &kp X           &kp C           &kp V           &kp B               &kp N           &kp M           &kp COMMA       &kp DOT         &kp FSLH        &kp RSHFT
-                                                            &kp LALT    &trans   &lt 1 SPACE            &kp RET     &mo 2   &trans
+                                                            &kp LALT    &mo 2   &lt 1 SPACE            &kp RET     &mo 2   &trans
                         >;
                 };
                 lower_layer {
@@ -83,9 +83,24 @@
                         bindings = <
     &trans          &trans          &trans          &kp EQUAL       &kp AMPS        &kp TILDE           &trans          &kp UNDER       &kp ASTRK       &kp PIPE        &kp PLUS        &trans
     &kp F11         &kp AT          &trans          &kp LSHFT       &kp LCTRL       &kp GRAVE           &trans          &kp HOME        &kp PG_UP       &kp PG_DN       &kp END         &trans
-    &trans          &trans          &trans          &trans          &trans          &trans              &trans          &kp HASH        &trans          &kp CARET       &kp BSLH        &trans
+    &kp F5          &trans          &trans          &trans          &trans          &kp EXCL            &trans          &kp HASH        &trans          &kp CARET       &kp BSLH        &trans
                                                                      &trans    &trans   &trans               &trans     &trans   &trans
                         >;
                 };
+/*
+                number_layer {
+// -----------------------------------------------------------------------------------------
+// |  TAB |  Q  |  W  |  E  |  R  |  T  |   |  Y  |  U   |  I  |  O  |  P  | BKSP |
+// | CTRL |  A  |  S  |  D  |  F  |  G  |   |  H  |  J   |  K  |  L  |  ;  |  '   |
+// | SHFT |  Z  |  X  |  C  |  V  |  B  |   |  N  |  M   |  ,  |  .  |  /  | ESC  |
+//                    | GUI | LWR | SPC |   | ENT | RSE  | ALT |
+                        bindings = <
+    &trans          &trans          &trans          &trans          &trans          &trans              &trans          &trans          &trans          &trans          &trans          &trans
+    &trans          &trans          &trans          &trans          &trans          &trans              &trans          &trans          &trans          &trans          &trans          &trans
+    &trans          &trans          &trans          &trans          &trans          &trans              &trans          &trans          &trans          &trans          &trans          &trans
+                                                                     &trans    &trans   &trans               &trans     &trans   &trans
+                        >;
+                };
+*/
         };
 };
