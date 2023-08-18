@@ -68,7 +68,7 @@
 //                    | GUI |     | SPC |   | ENT |     | ALT |
                         bindings = <
     &trans          &trans          &trans          &kp UP          &trans          &kp C_SLEEP         &trans          &kp K_BACK      &kp K_FORWARD   &trans          &trans          &td1
-    &&kp CAP        &kp LCTRL       &kp LEFT        &kp DOWN        &kp RIGHT       &trans              &trans          &RCTRL          &RSHFT          &RALT           &RGUI           &trans
+    &kp CAP        &kp LCTRL       &kp LEFT        &kp DOWN        &kp RIGHT       &trans               &trans          &RCTRL          &RSHFT          &RALT           &RGUI           &trans
     &trans          &kp BSPC        &DEL            &trans          &kp RC(PG_UP)   &RC(PG_DN)          &BSPC           &DEL            &trans          &trans          &trans          &trans
                                                                      &trans    &trans   &trans               &trans     &trans   &trans
                         >;
