@@ -17,3 +17,5 @@ include:
     shield: brianbanri_left
   - board: nice_nano_v2
     shield: brianbanri_right
+  - board: nice_nano_v2
+    shield: settings_reset
